@@ -8,9 +8,24 @@
     <artifactId>chilimba-tracker</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-    </properties>
+<properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <maven.compiler.release>17</maven.compiler.release> <!-- Add this line -->
+  </properties>
+
+  <dependencies>
+    <dependency>
+        <groupId>io.javalin</groupId>
+        <artifactId>javalin</artifactId>
+        <version>6.1.3</version>
+    </dependency>
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-simple</artifactId>
+        <version>2.0.13</version>
+    </dependency>
+  </dependencies>
 
 </project>
